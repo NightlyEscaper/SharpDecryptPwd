@@ -1,0 +1,25 @@
+{
+    "name": "SharpDecryptPwd",
+    "version": "v0.0.0",
+    "command_name": "sharpdecryptpwd",
+    "original_author": "RowTeam",
+    "repo_url": "https://github.com/NightlyEscaper/SharpDecryptPwd",
+    "help": "OpSec-safe Powershell runspace from within C#.",
+    "entrypoint": "Main",
+    "allow_args": true,
+    "default_args": "-h",
+    "is_reflective": false,
+    "is_assembly": true,
+    "files": [
+      {
+        "os": "windows",
+        "arch": "amd64",
+        "path": "SharpDecryptPwd.exe"
+      },
+      {
+        "os": "windows",
+        "arch": "386",
+        "path": "SharpDecryptPwd.exe"
+      }
+    ]
+  }
